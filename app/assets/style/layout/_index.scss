@@ -1,0 +1,24 @@
+// layout
+.header-logo{
+  background-image: url(https://raw.githubusercontent.com/hexschool/2022-web-layout-training/a42e625b3e98d0fe8ffa5f9f58096fb8326aa845/week5/logo-ANSWER.svg);
+  background-repeat: no-repeat;
+  text-indent: 101%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.sidebar{
+  width: 296px;
+}
+.main{
+  padding-left: 296px !important;
+}
+.list-item-admin::before{
+  content: '';
+  display: inline-block;
+  width: 4px;
+  height: 32px;
+  background-color: $success;
+  margin-left: -32px;
+  margin-right: 28px;
+  vertical-align: bottom;
+}
