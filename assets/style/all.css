@@ -12276,8 +12276,12 @@ fieldset:disabled .btn {
 }
 
 ul {
-  list-style-type: none;
+  list-style: none;
   margin-bottom: 0;
+}
+
+img {
+  vertical-align: middle;
 }
 
 .material-symbols-outlined {
@@ -12297,10 +12301,10 @@ ul {
 }
 
 .main {
-  padding-left: 296px !important;
+  margin-left: 296px !important;
 }
 
-.list-item-admin::before {
+.active::before {
   content: '';
   display: inline-block;
   width: 4px;
