@@ -10,9 +10,9 @@
   width: 296px;
 }
 .main{
-  padding-left: 296px !important;
+  margin-left: 296px !important;
 }
-.list-item-admin::before{
+.active::before{
   content: '';
   display: inline-block;
   width: 4px;
